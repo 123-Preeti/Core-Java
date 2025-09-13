@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 
 public class AnnotationExample4 {
 
-    @MyAnno4()
+    @MyAnno4()// it will take default values
     public static void myMeth() {
             AnnotationExample4 obj = new AnnotationExample4();
         try {
