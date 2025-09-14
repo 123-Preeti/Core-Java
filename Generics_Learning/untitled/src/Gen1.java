@@ -1,2 +1,3 @@
-public class Gen1 {
+class Gen1<T> {
+    T a;
 }
