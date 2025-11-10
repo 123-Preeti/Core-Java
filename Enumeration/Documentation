@@ -1,0 +1,18 @@
+# Enumeration (Enum) in Java
+
+This document contains notes on **Enumeration (Enum) in Java**.
+
+Enumeration is a list of named constants that define a new data type along with its legal values.  
+Enums were introduced in **Java 5**.
+
+## 📘 Key Points Covered
+
+- Enum is used to store one value out of a set of predefined values.
+- Enum inherits from `java.lang.Enum`, therefore it **cannot inherit another class**.
+- An Enum **cannot be a superclass**.
+- Syntax:
+  ```java
+  Enum <NameOfEnum> { CONST_VALUES };
+
+
+link - https://docs.google.com/document/d/1DRB2vkhU1iEHLJ8Xz-5nibGdpwaOQ4apwPP64oi9WNI/edit?usp=sharing
