@@ -1,0 +1,86 @@
+✅ Annotation in Java – Main Points (Bullet Points)
+1. Definition
+
+Annotations are metadata in Java.
+
+They provide information to the compiler, JVM, and tools.
+
+They do not change the actual program logic.
+
+2. Purpose of Annotations
+
+Provide instructions to compiler or runtime.
+
+Reduce boilerplate code.
+
+Support framework-based configuration.
+
+Improve code readability and maintainability.
+
+3. Types of Java Annotations
+
+Built-in annotations (e.g., @Override, @Deprecated).
+
+Meta-annotations (annotations that define other annotations).
+
+Custom annotations (created using @interface).
+
+4. Common Built-in Annotations
+
+@Override → Ensures method overriding.
+
+@Deprecated → Marks code as outdated.
+
+@SuppressWarnings → Suppresses compiler warnings.
+
+5. Meta-Annotations
+
+@Retention → Defines how long annotation is kept (SOURCE, CLASS, RUNTIME).
+
+@Target → Specifies where annotation can be applied (method, class, field).
+
+@Inherited → Allows annotations to be inherited by subclasses.
+
+@Documented → Includes annotation in Javadoc.
+
+6. Custom Annotations
+
+Created using @interface.
+
+Can contain elements (like variables).
+
+Elements can have default values.
+
+Accessed at runtime using Reflection.
+
+7. Annotations Used in Frameworks
+
+Spring: @Autowired, @Component, @RestController.
+
+Hibernate/JPA: @Entity, @Id, @Column.
+
+JUnit/TestNG: @Test, @BeforeEach, @AfterEach.
+
+8. Benefits of Using Annotations
+
+Cleaner and more readable code.
+
+Less XML configuration.
+
+Automated dependency injection & mapping.
+
+Helps with compiler checking & error prevention.
+
+Reduces repetitive code.
+
+9. Best Practices
+
+Use correct @Target for accurate placement.
+
+Avoid overusing annotations.
+
+Keep annotation definitions simple.
+
+Document custom annotations clearly.
+
+Use annotations consistently across the project.
