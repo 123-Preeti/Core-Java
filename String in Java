@@ -1,0 +1,37 @@
+String 
+
+Methods used:
+s.length() - > length of string
+s.charAt(i) -> returns char at i index
+s.substring(start, end) -> returns a new string from start(included) to end(excluded)
+s.toLowerCase() s.toUpperCase()
+
+Print each character
+class Print{
+    public static void main(String[] args){
+        String str = "AvinashPreeti";
+        for(int i =0; i< str.length(); i++) {
+            System.out.println("Index " + i + "-> " + str.charAt(i));
+        }
+        }
+    }
+
+Extract substring and print last 3 chars
+class Print{
+    public static void main(String[] args){
+        String str = "AvinashPreeti";
+        String sub = str.substring(2,11);
+        System.out.println("Substring: " + sub);
+        
+        //last 3 characters
+        int n = str.length();
+        if(n >= 3){
+            String newS = str.substring(n-3, n);
+            System.out.println("Last 3 characters of "+ str + " is : "+ newS);
+        }else {
+            System.out.println("String is too small");
+        }
+    }
+    }
+
+
