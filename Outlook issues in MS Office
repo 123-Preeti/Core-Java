@@ -1,0 +1,27 @@
+Outlook not opening or not starting: This issue is commonly caused by a corrupt Outlook profile, problematic add-ins, damaged PST or OST files, or compatibility settings. It can be resolved by starting Outlook in safe mode using outlook /safe, disabling all add-ins, repairing the data file using ScanPST.exe, or creating and setting a new Outlook profile as default from the Control Panel.
+
+Emails not sending or receiving: This problem usually occurs due to Outlook being in Work Offline mode, incorrect server settings, internet connectivity issues, or a full mailbox. The resolution includes disabling Work Offline, verifying account and server settings, checking internet connectivity, confirming mailbox quota, and restarting Outlook.
+
+Outlook stuck on “Loading Profile”: This can happen due to a corrupted profile, Cached Exchange Mode issues, or slow network connections. Creating a new Outlook profile, disabling Cached Exchange Mode, or checking the account using Outlook Web Access helps resolve this issue.
+
+Outlook repeatedly asking for password: This is typically caused by corrupted saved credentials, authentication issues, or outdated Office applications. Clearing Outlook credentials from Windows Credential Manager, re-adding the account, and updating Outlook usually fix the issue.
+
+Outlook freezing, crashing, or running slowly: Performance issues are often due to large mailboxes, faulty add-ins, or outdated Office versions. Archiving old emails, disabling unnecessary add-ins, repairing Microsoft Office, and installing updates can improve Outlook performance.
+
+Outlook search not working: This issue is usually related to Windows indexing problems or corrupted OST files. Rebuilding the Windows search index, setting Outlook as the default email client, or recreating the OST file resolves the issue.
+
+Missing or disappeared emails: Emails may appear missing due to applied filters, incorrect view settings, rules, or accidental deletion. Resetting the view, clearing filters, checking rules, and reviewing Deleted Items or Recover Deleted Items can help recover emails.
+
+Attachments not opening or blocked: This occurs due to security restrictions, antivirus interference, or Protected View settings. Saving attachments locally, adjusting Trust Center settings, or reviewing antivirus configuration can resolve this problem.
+
+Calendar not syncing: Calendar synchronization issues may arise due to Cached Mode problems, permission issues, or server delays. Restarting Outlook, checking calendar permissions, disabling and re-enabling Cached Mode, and verifying via Outlook Web Access can fix this.
+
+Duplicate emails in Outlook: Duplicate emails are often caused by IMAP sync issues, duplicate rules, or corrupted OST files. Removing duplicate rules, repairing the data file, or recreating the Outlook profile resolves this issue.
+
+Cannot expand folder error: This error usually occurs due to corrupted PST or OST files or server connectivity issues. Repairing the data file, creating a new Outlook profile, and checking network or VPN connectivity can resolve it.
+
+Outlook showing only old emails: This problem is commonly due to date filters or Cached Mode sync limits. Changing the Mail to Keep Offline setting to All, resetting the view, and checking filters resolves the issue.
+
+General resolution approach: Most Outlook issues can be resolved by checking network connectivity, account configuration, profile integrity, add-ins, cached mode settings, and mailbox status before escalating to advanced troubleshooting.
+
+
