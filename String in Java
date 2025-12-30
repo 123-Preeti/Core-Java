@@ -64,4 +64,59 @@ public class Example1  {
     }
 }
 
+// Number
+let number = 250;
+let numberStr = number.toString();
+
+// Boolean
+let status = false;
+let statusStr = status.toString();
+
+// Array
+let marks = [80, 85, 90];
+let marksStr = marks.toString();
+
+// Object with custom toString()
+let student = {
+  name: "Preetu",
+  age: 21,
+  course: "B.Tech",
+  toString: function () {
+    return this.name + " | " + this.course + " | Age: " + this.age;
+  }
+};
+
+// Output
+console.log("Number as string:", numberStr);
+console.log("Boolean as string:", statusStr);
+console.log("Array as string:", marksStr);
+console.log("Object as string:", student.toString());
+
+// Type checking
+console.log(typeof numberStr); // string
+
+
+
+// Diffrenec between hashcode and euqls method 
+
+class Student {
+    int id;
+
+    Student(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Student s = (Student) obj;
+        return this.id == s.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
+}
+
+
 
