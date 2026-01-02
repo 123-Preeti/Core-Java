@@ -119,4 +119,59 @@ class Student {
 }
 
 
+*******************************
+class Person {
+    String name;
+
+    Person(String name) {
+        this.name = name;
+    }
+
+    public String toString() {
+        return "Name: " + name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person p = new Person("Preeti");
+        System.out.println(p);
+    }
+}
+********************************
+import java.util.Scanner;
+
+class Student {
+    int roll;
+    String name;
+
+    Student(int roll, String name) {
+        this.roll = roll;
+        this.name = name;
+    }
+
+    public String toString() {
+        return "Roll: " + roll + ", Name: " + name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter roll: ");
+        int r = sc.nextInt();
+        sc.nextLine();
+
+        System.out.print("Enter name: ");
+        String n = sc.nextLine();
+
+        Student s = new Student(r, n);
+        System.out.println(s);
+
+        sc.close();
+    }
+}
+
+
 
