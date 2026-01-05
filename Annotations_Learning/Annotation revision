@@ -84,3 +84,110 @@ Keep annotation definitions simple.
 Document custom annotations clearly.
 
 Use annotations consistently across the project.
+
+
+
+✅ Annotations in Java – Important Revision Points
+🔹 What is an Annotation?
+
+Annotation provides metadata (extra information) about code
+
+It does not change program logic
+
+Used by compiler, JVM, or frameworks
+
+🔹 Syntax
+@AnnotationName
+
+🔹 Why Annotations are Used?
+
+Reduce code
+
+Improve readability
+
+Provide information to compiler/framework
+
+Used in Spring, Hibernate, JUnit
+
+🔹 Built-in Annotations (Very Important ⭐)
+1️⃣ @Override
+
+Checks method overriding
+
+Gives compile-time error if method is not overridden correctly
+
+@Override
+public String toString() {
+    return "Hello";
+}
+
+2️⃣ @Deprecated
+
+Marks method/class as outdated
+
+Compiler gives warning if used
+
+@Deprecated
+void oldMethod() { }
+
+3️⃣ @SuppressWarnings
+
+Suppresses compiler warnings
+
+@SuppressWarnings("unchecked")
+
+4️⃣ @FunctionalInterface
+
+Used with interfaces having only one abstract method
+
+Used in Lambda expressions
+
+@FunctionalInterface
+interface Demo {
+    void show();
+}
+
+🔹 Meta-Annotations (Very Important ⭐⭐)
+Meta-Annotation	Use
+@Retention	How long annotation is kept
+@Target	Where annotation can be applied
+@Documented	Appears in JavaDoc
+@Inherited	Inherited by subclasses
+🔹 Retention Policy Types
+
+SOURCE → only in source code
+
+CLASS → stored in .class file
+
+RUNTIME → available at runtime (reflection)
+
+🔹 Target Types
+
+METHOD
+
+CLASS
+
+FIELD
+
+CONSTRUCTOR
+
+PARAMETER
+
+🔹 Custom Annotation (Basic Idea)
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+@interface MyAnnotation {
+    String value();
+}
+
+🔹 Important Exam Notes ⭐
+
+Annotations start with @
+
+@Override is most commonly used
+
+Meta-annotations define annotation behavior
+
+Annotations can be built-in or user-defined
